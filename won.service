@@ -1,0 +1,12 @@
+[Unit]
+Description=Geth Node
+After=network-online.target
+Wants=network-online.target
+[Service]
+WorkingDirectory=/root
+User=root
+ExecStart=/usr/bin/geth --gcmode archive --syncmode full --networkid 6868 --http --http.port 6868 --http.api "db,eth,net,web3,personal,debug" --http.corsdomain "*" --http.vhosts "*" --http.addr 0.0.0.0
+Restart=always
+RestartSec=5s
+[Install]
+WantedBy=multi-user.target
