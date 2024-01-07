@@ -5,7 +5,7 @@ Wants=network-online.target
 [Service]
 WorkingDirectory=/root
 User=root
-ExecStart=/usr/bin/geth --gcmode archive --syncmode full --networkid 6868 --http --http.port 6868 --http.api "db,eth,net,web3,personal,debug" --http.corsdomain "" --http.vhosts "" --http.addr 0.0.0.0 --rpc --rpcport 8545 --rpcaddr 64.23.150.193 --rpccorsdomain "*"
+ExecStart=/usr/bin/geth --gcmode archive --syncmode full --networkid 6868 --http --http.port 8545 --http.api db,eth,net,web3,personal,debug --http.corsdomain "" --http.vhosts "" --http.addr 0.0.0.0 --rpcaddr 64.23.150.193 --rpccorsdomain "*"
 Restart=always
 RestartSec=5s
 [Install]
