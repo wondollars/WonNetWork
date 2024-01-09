@@ -1,27 +1,28 @@
 {
   "config": {
-      "chainId": 696969,
-      "homesteadBlock": 0,
-      "eip150Block": 0,
-      "eip155Block": 0,
-      "eip158Block": 0,
-      "byzantiumBlock": 0,
-      "constantinopleBlock": 0,
-      "petersburgBlock": 0,
-      "istanbulBlock": 0,
-      "berlinBlock": 0,
-      "londonBlock": 0,
-      "clique": {
-          "period": 5,
-          "epoch": 30000
-      }
+    "chainId": 696969,
+    "berlinBlock": 0,
+    "zeroBaseFee": true,     
+    "consensus": "pos",
+    "blockperiod": 5,
+    "staking": {
+      "stakingenabled": true,
+      "stakingminimum": "1000000000000000000",
+      "stakingreward": 5
+    }
   },
   "nonce": "0x0",
-  "difficulty": "1",
-  "gasLimit": "8000000",
+  "timestamp"  : "0x00",
+  "gasLimit"   : "0x2fefd8",
+  "difficulty": "0x1",
+  "mixhash"    : "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "coinbase": "0x0000000000000000000000000000000000000000",
+  "number": "0x0",
+  "gasUsed": "0x0",
+  "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
   "alloc": {
-      "4bDEa95eb7c4E57D60eeBBD8Cec5e907991bEE77": {
-          "balance": "1000000000000000000"
-      }
+    "4bDEa95eb7c4E57D60eeBBD8Cec5e907991bEE77": {
+      "balance": "0x6342FD08F00F6378000000"
+    }
   }
 }
