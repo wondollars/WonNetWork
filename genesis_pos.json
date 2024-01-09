@@ -1,7 +1,6 @@
 {
   "config": {
-    "chainId": 696969,
-    "berlinBlock": 0,
+    "chainId": 696969,     
     "zeroBaseFee": true,     
     "consensus": "pos",
     "blockperiod": 5,
