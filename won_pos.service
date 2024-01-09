@@ -1,13 +1,15 @@
 [Unit]
-Description=Geth Node
+Description=Geth Node (POS)
 After=network-online.target
 Wants=network-online.target
+
 [Service]
 WorkingDirectory=/root
 User=root
-ExecStart=/usr/bin/geth --gcmode archive --syncmode full --datadir wonchaindata --networkid 6868 --http --http.port 8545 --http.api "db,eth,net,web3,personal,debug" --http.corsdomain "*" --http.vhosts "*" --http.addr "0.0.0.0" --nat extip:64.23.150.193
+ExecStart=/usr/bin/geth --gcmode archive --syncmode full --datadir wonchaindata --networkid 696969 --http --http.port 8545 --http.api "db,eth,net,web3,personal,debug" --http.corsdomain "" --http.vhosts "" --http.addr "0.00.0.0" --nat extip:64.23.150.193 --nousb --syncmode full --mine --miner.threads 1 --miner.gasprice 0 --staking --staking.address 0x4bDEa95eb7c4E57D60eeBBD8Cec5e907991bEE77 --staking.amount 1000000000000000000
 
 Restart=always
 RestartSec=5s
+
 [Install]
 WantedBy=multi-user.target
