@@ -10,10 +10,9 @@
     "petersburgBlock": 0,
     "istanbulBlock": 0,
     "berlinBlock": 0,
-    "londonBlock": 0    
-     
+    "londonBlock": 0         
   },
-  "nonce": "0x0000000000000042",
+  "nonce": "0x0",
   "timestamp"  : "0x00",
   "gasLimit"   : "0x2fefd8",
   "difficulty": "0x20000",
