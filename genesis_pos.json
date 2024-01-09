@@ -10,24 +10,18 @@
     "petersburgBlock": 0,
     "istanbulBlock": 0,
     "berlinBlock": 0,
-    "londonBlock": 0,
-    "zeroBaseFee": true,     
-    "consensus": "pos",
-    "blockperiod": 5,
-    "staking": {
-      "stakingenabled": true,
-      "stakingminimum": "1000000000000000000",
-      "stakingreward": 5
-    }
+    "londonBlock": 0    
+     
   },
-  "nonce": "0x0",
+  "nonce": "0x0000000000000042",
   "timestamp"  : "0x00",
   "gasLimit"   : "0x2fefd8",
-  "difficulty": "0x1",
+  "difficulty": "0x20000",
+  "extraData": "",
   "mixhash"    : "0x0000000000000000000000000000000000000000000000000000000000000000",
   "coinbase": "0x0000000000000000000000000000000000000000",
   "number": "0x0",
-  "gasUsed": "0x0",
+  "gasUsed": "0x0", 
   "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
   "alloc": {
     "4bDEa95eb7c4E57D60eeBBD8Cec5e907991bEE77": {
