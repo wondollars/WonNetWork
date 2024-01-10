@@ -5,7 +5,7 @@ Wants=network-online.target
 [Service]
 WorkingDirectory=/root/wonchaindata
 User=root
-ExecStart=/usr/bin/geth --syncmode full --http  --miner.etherbase 0x4bDEa95eb7c4E57D60eeBBD8Cec5e907991bEE77 --networkid 686868    --http.port 8545 --http.corsdomain "*" --http.vhosts "*"   --http.addr "0.0.0.0" --nat extip:143.198.102.57 --datadir /wonchaindata --mine --allow-insecure-unlock
+ExecStart=/usr/bin/geth --gcmode archive  --syncmode full --http  --miner.etherbase 0x4bDEa95eb7c4E57D60eeBBD8Cec5e907991bEE77 --networkid 686868    --http.port 8545 --http.corsdomain "*" --http.vhosts "*"   --http.addr "0.0.0.0" --nat extip:143.198.102.57 --datadir /wonchaindata --mine --allow-insecure-unlock
 
 Restart=always
 RestartSec=5s
