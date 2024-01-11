@@ -6,7 +6,7 @@ Wants=network-online.target
 WorkingDirectory=/root/wonchaindata
 User=root
  
-ExecStart=/usr/bin/geth --gcmode archive --syncmode full --http --networkid 686868 --http.api "db,eth,net,web3,personal,debug" --http.port 686868 --http.corsdomain "*" --http.vhosts "*"   --http.addr "0.0.0.0" --nat extip:170.64.190.60 --datadir /wonchaindata --mine --miner.etherbase 0x4bDEa95eb7c4E57D60eeBBD8Cec5e907991bEE77 
+ExecStart=/usr/bin/geth --gcmode archive --syncmode full --http --networkid 686868 --http.api "db,eth,net,web3,personal,debug" --http.port 6868 --http.corsdomain "*" --http.vhosts "*"   --http.addr "0.0.0.0" --nat extip:137.184.178.112 --datadir /wonchaindata --mine --miner.etherbase 0x4bDEa95eb7c4E57D60eeBBD8Cec5e907991bEE77 
 
 Restart=always
 RestartSec=5s
