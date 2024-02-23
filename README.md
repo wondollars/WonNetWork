@@ -11,7 +11,7 @@ To mine Won using the POS algorithm, you need to run a Node and mine Won. As Won
     sudo apt-get update
     sudo apt-get install Ethereum
 
-##Step 2: Create a directory for Wonchain data
+## Step 2: Create a directory for Wonchain data
 
     ```bash
     mkdir wonchaindata
