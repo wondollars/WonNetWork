@@ -23,19 +23,23 @@ wget https://raw.githubusercontent.com/wondollars/wonchain/main/genesis.json
 wget https://github.com/wondollars/wonchain/raw/main/geth
 
 ## Step 4: Check the Geth version
+
 ```bash
 ./geth --version
 
 
 ## Step 5: Install the Genesis file
+
 ```bash
 sudo ./geth init --datadir /wonchaindata genesis.json
 
 ## Step 6: Run the Node
+
 ```bash
 sudo ./geth --gcmode archive --syncmode full --http --miner.etherbase "your Wallet" --networkid 686868 --http.port 6868 --http.corsdomain "*" --http.vhosts "*" --http.addr "0.0.0.0" --datadir ./wonchaindata --mine
 
 ## Step 7: Add Peers & Mining
+
 ```bash
 sudo geth attach --datadir ./wonchaindata
 admin.addPeer("enode://277af6386d58c1613f84dbf16ee02a8814f20d68fe1db7c1101e868e7b7d70801c69a9d1993c28653e6b3be9a8f7fd19e0fd2523c7d5369f49bf75f889b12bb5@137.184.178.112:30303")
