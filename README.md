@@ -1,5 +1,4 @@
 # Node & Mining (Linux)
-
 To mine Won using the POS algorithm, you need to run a Node and mine Won. As Won utilizes the POS algorithm, if you are using Geth version 1.11, please follow the steps below.
 
 **Operating System Requirement:** Linux 22.04 LTS
