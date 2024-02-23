@@ -70,4 +70,4 @@ To mine Won using the POS algorithm, you need to run a Node and mine Won. As Won
     miner.setEtherbase('Your Wallet')
     miner.start()
 
-> if you already Changing your Wallet in Step 6, you can ignore the command "miner.setEtherbase('Your Wallet')"
+> if you already Changing your Wallet in Step 3, you can ignore the command "miner.setEtherbase('Your Wallet')"
