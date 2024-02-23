@@ -4,16 +4,16 @@ To mine Won using the POS algorithm, you need to run a Node and mine Won. As Won
 
 **Operating System Requirement:** Linux 22.04 LTS
 
-## Step 1: Install Geth from Ethereum
+### Step 1: Install Geth from Ethereum
+    ```bash
+    sudo add-apt-repository -y ppa:ethereum/ethereum
+    sudo apt-get update
+    sudo apt-get install Ethereum
 
-```bash
-sudo add-apt-repository -y ppa:ethereum/ethereum
-sudo apt-get update
-sudo apt-get install Ethereum
+Step 2: Create a directory for Wonchain data
 
-## Step 2: Create a directory for Wonchain data
-```bash
-mkdir wonchaindata
+    ```bash
+    mkdir wonchaindata
 
 ## Step 3: Download the Genesis and Geth files (Version 1.11) from Won Github
 
