@@ -24,7 +24,7 @@ Won Network emerges as a pioneering blockchain venture committed to providing a 
    
     
 ### 2- Blockchain Information
-    - ame: WonChain
+    - Name: WonChain
     - Chain ID: 686868
     - RPC URL: https://rpc.wonnetwork.org/
     - SYMBOL: WON
