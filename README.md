@@ -1,6 +1,7 @@
 # General
 
-Won Network emerges as a pioneering blockchain venture committed to providing a haven for asset storage, with a focus on anonymity, gas-free transactions, and a suite of enduring utilities. Our platform encompasses a diverse range of services, including a versatile wallet app, a decentralized exchange (DEX), an array of engaging games, and a launchpad for budding projects.
+Won Network emerges as a pioneering blockchain venture committed to providing a haven for asset storage, with a focus on anonymity, gas-free transactions, and a suite of enduring utilities. 
+    Our platform encompasses a diverse range of services, including a versatile wallet app, a decentralized exchange (DEX), an array of engaging games, and a launchpad for budding projects.
 
     At the core of Won Network's ethos is the belief in democratizing access to financial resources. We envision a world where individuals can safeguard their assets without sacrificing their privacy or incurring unnecessary transaction fees. To this end, Won Network operates on a gas-free model, ensuring that users can execute transactions seamlessly, without being burdened by the costs typically associated with blockchain operations.
 
@@ -14,10 +15,14 @@ Won Network emerges as a pioneering blockchain venture committed to providing a 
 
   
 
-### 1 - Install Geth from Ethereum
-    sudo  add-apt-repository  -y  ppa:ethereum/ethereum
-    sudo  apt-get  update
-    sudo  apt-get  install  Ethereum
+### 1 - URL
+    Homepage: https://wonnetwork.org/ 
+    WonDollars: https://wondollars.org (Free Distribution)
+    Faucet: https://faucet.wondollars.org/ 
+    Bridge: https://test-bridge.wondollars.org
+    Documents: https://docs.wonnetwork.org/
+   
+    
 ### 2- Create a directory for Wonchain data
     mkdir wonchaindata
 ### 3- Download the Genesis and Geth files (Version 1.11) from Won Github
