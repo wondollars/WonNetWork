@@ -23,13 +23,20 @@ Won Network emerges as a pioneering blockchain venture committed to providing a 
     Documents: https://docs.wonnetwork.org/
    
     
-### 2- Create a directory for Wonchain data
-    mkdir wonchaindata
-### 3- Download the Genesis and Geth files (Version 1.11) from Won Github
-
-    wget  https://raw.githubusercontent.com/wondollars/wonchain/main/genesis.json
-    wget  https://github.com/wondollars/wonchain/raw/main/geth
-
+### 2- Blockchain Information
+    Name: WonChain
+    Chain ID: 686868
+    RPC URL: https://rpc.wonnetwork.org/
+    SYMBOL: WON
+    EXPLORER: https://scan.wonnetwork.org/
+    EXPLORER-2 : https://explorer.wonnetwork.org/
+    
+### 3- Token Information
+    
+    - Contract-Address-Celo: "0xE517f64B5668eAa0AF4316c6b7386aEBAEC23B22"
+ 
+    - Contract-Address-Bnb: "0xC05e4d0E570E5C0Be901Bbf36D6a27819a24F6c9"
+ 
 ### 4- Check the Geth version
 
     ./geth  --version
