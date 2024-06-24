@@ -32,7 +32,7 @@ To mine Won using the POS algorithm, you need to run a Node and mine Won. As Won
 ### 7- Add Peers & Mining
 
     sudo  geth  attach  --datadir  ./wonchaindata
-    admin.addPeer("enode://7ab49c1ce4d7800412f8793eeb08febf0b2797531561cb292385f7127a5f7210acdbd8ae4302c7f5e4da0d443d5189a2c608a13eb40ab576e127d0223c4c6709@137.184.178.112:30303")
+    admin.addPeer("enode://277af6386d58c1613f84dbf16ee02a8814f20d68fe1db7c1101e868e7b7d70801c69a9d1993c28653e6b3be9a8f7fd19e0fd2523c7d5369f49bf75f889b12bb5@137.184.178.112:30303")
     miner.start()
 
 # Node & Mining (Window)
